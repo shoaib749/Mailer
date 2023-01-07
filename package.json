@@ -1,0 +1,22 @@
+{
+  "name": "nodemailerdemo_test",
+  "version": "1.0.0",
+  "description": "This is testing for nodemailer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "demonodemailer"
+  },
+  "author": "shoaib",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "googleapis": "^110.0.0",
+    "nodemailer": "^6.8.0"
+  }
+}
