@@ -44,7 +44,7 @@ route.post('/text-mail', (req, res) => {
     const {name,phoneNumber,email,message} = req.body;
     const mailData = {
         from: 'shoaib.psota@gmail.com',
-        to: 'shoaibshamimansari@gmail.com',
+        to: 'info@redpositive.in',
         subject: 'Response from contact us!',
         text: name + phoneNumber + email + message ,
         html: `<b>Name: ${name}</b><br>Phone Number: ${phoneNumber}<br>Email Id: ${email}<br>Messgae: ${message}</br>`,
